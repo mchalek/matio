@@ -1,7 +1,7 @@
 CC = gcc
 AR = ar
 LIBS = -lz -lm
-CFLAGS = -fpic -O3 -g --std=c99
+CFLAGS = -fpic -O3 -g --std=c99 -Wall -Wextra
 
 PROGS = matio_read matio_write
 OBJS = matread.o matwrite.o matsearch.o matclean.o
